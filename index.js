@@ -41,7 +41,7 @@ $("#mnc").click(function () {
 
 var count = 1;
 $("#smt").click(function () {
-    if($("#nm").val()!="" && $("#ag").val()!=""){
+    if($("#nm").val()!="" && $("#ag").val()!="" && $("#ct").text()!="Select"){
     var ct = $("#ct").text();
     $(".rght").append(`<div class="card col-12 my-2" style="width:400px" id="card${count}">
     <h2 class="mx-auto"><span class="badge badge-secondary">${ct}</span></h2>
